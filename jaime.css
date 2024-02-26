@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    overflow-x:hidden;
+}
+
+
+header{
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    top:0;
+}
+
+section.row{
+    margin-top:100px;
+    background-color: yellowgreen;
+
+
+}
+
+
+section > div { 
+
+    background-color: burlywood;
+    height:400px;
+   
+
+}
+section > div:nth-child(3n-1){
+    background-color: red;
+}
+
+section > div:nth-child(3n-2){
+    background-color: yellow;
+}
+
+section > div:nth-child(3n){
+    background-color: green;
+}
+
+#miClaseCustom{
+    background-color: pink;
+}
+
+footer{
+    background-color: pink;
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    bottom:0;
+}
+
